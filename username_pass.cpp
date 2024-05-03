@@ -9,7 +9,7 @@ using namespace std;
 
 // Function to generate a random password
 string generatePassword(int length) {
-    const string charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+";
+    const string charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*_=+";
     string password;
     srand(time(0)); // Seed the random number generator
 
